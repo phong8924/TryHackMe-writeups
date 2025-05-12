@@ -20,12 +20,12 @@ Snort không chỉ dùng để giám sát mạng theo thời gian thực mà cò
 >**1:** Kiểm tra tệp mx-1.pcap bằng tệp cấu hình mặc định.
 `sudo snort -c /etc/snort/snort.conf -A full -l . -r mx-1.pcap`
 Số lượng cảnh báo được tạo ra là bao nhiêu?
-![alt text](<png/snort-task8 (1).png>)
+![alt text](./<png/snort-task8 (1).png>)
 
 >**2:** How many "HTTP response headers" were extracted?
-![alt text](<png/snort-task8 (2).png>)
+![alt text](./<png/snort-task8 (2).png>)
 
 >**3:** How many "HTTP response headers" were extracted?
-![alt text](<png/snort-task8 (3).png>)
+![alt text](../<png/snort-task8 (3).png>)
 
 ........................................................
