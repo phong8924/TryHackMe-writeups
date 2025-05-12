@@ -43,7 +43,7 @@ Snort exiting
 ```
 
 > **Câu hỏi:** Có bao nhiêu rule được load từ file `snort.conf`?
-![alt text](../<Screenshot 2025-05-12 130648.png>)
+
 > ✅ **Đáp án:** `4151`
 
 ---
@@ -55,7 +55,7 @@ sudo snort -c /etc/snort/snortv2.conf -T
 ```
 
 > **Câu hỏi:** Có bao nhiêu rule được load từ file `snortv2.conf`?
-![alt text](../<Screenshot 2025-05-12 130759.png>)
+
 > ✅ **Đáp án:** `1`
 
 ---
