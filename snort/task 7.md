@@ -85,4 +85,4 @@ sudo snort -c /etc/snort/rules/local.rules -A console
 `sudo ./traffic-generator.sh`
 
 >Số lượng phương thức HTTP GET được phát hiện là bao nhiêu?
-![alt text](../<png/snort-task7 (1).png>)
+png/snort-task7 (1).png
