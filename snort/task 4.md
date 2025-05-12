@@ -22,7 +22,7 @@ Kết quả mẫu:
 ```
 
 > **Câu hỏi:** Chạy lệnh trên và kiểm tra số build của Snort.
-![alt text](<Screenshot 2025-05-12 130436.png>)
+
 > ✅ **Đáp án:** `149`
 
 ---
@@ -43,7 +43,7 @@ Snort exiting
 ```
 
 > **Câu hỏi:** Có bao nhiêu rule được load từ file `snort.conf`?
-![alt text](<Screenshot 2025-05-12 130648.png>)
+![alt text](../<Screenshot 2025-05-12 130648.png>)
 > ✅ **Đáp án:** `4151`
 
 ---
@@ -55,7 +55,7 @@ sudo snort -c /etc/snort/snortv2.conf -T
 ```
 
 > **Câu hỏi:** Có bao nhiêu rule được load từ file `snortv2.conf`?
-![alt text](<Screenshot 2025-05-12 130759.png>)
+![alt text](../<Screenshot 2025-05-12 130759.png>)
 > ✅ **Đáp án:** `1`
 
 ---
