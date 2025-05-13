@@ -54,3 +54,4 @@ Write a rule to detect FTP login attempts with the "Administrator" username but 
 
 What is the number of detected packets?
 ![alt text](../png/snc9.png)
+>**đáp án: 7**
