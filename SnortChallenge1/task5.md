@@ -3,14 +3,14 @@
 Write a rule to detect the torrent metafile in the given pcap.
 
  What is the number of detected packets?
- ![alt text](../png/snc13.png)
-![alt text](../png/snc12.png)
+ ![alt text](../png/SnortChall/snc13.png)
+![alt text](../png/SnortChall/snc12.png)
 2 :cloud:
 
 **Câu 2 :** Investigate the log/alarm files.
 
 What is the name of the torrent application?
-![alt text](../png/snc14.png)
+![alt text](../png/SnortChall/snc14.png)
 bittorrent :*
 
 **Câu 3 :** Investigate the log/alarm files. 
