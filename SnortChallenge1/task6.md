@@ -44,7 +44,7 @@ Fix the logical error in local-6.rules file and make it work smoothly to create 
 > Lệnh sai get không viết hoa, đổi GET sang hex
 
 2
-![alt text](../png/snc16.png)
+![alt text](../png/SnortChall/snc16.png)
 Fix the logical error in local-7.rules file and make it work smoothly to create alerts.
 
 What is the name of the required option:
