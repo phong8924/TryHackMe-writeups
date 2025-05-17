@@ -99,32 +99,32 @@ alert tcp any any <> any 80 (msg: "GET Request Found"; content:"GET"; fast_patte
 > **Câu 1:** Use "task9.pcap". Write a rule to filter IP ID "35369" and run it against the given pcap file. What is the request name of the detected packet? You may use this command: "snort -c local.rules -A full -l . -r task9.pcap"
 
 B1: Thêm ruler vào local.rules
-![alt text](<../png/snort-task9 (1).png>)
+![alt text](<../png/Snort/snort-task9 (1).png>)
 
 B2: Chạy lệnh `snort -c local.rules -A full -l . -r task9.pcap`  để phân tích lại file "task9.pcap", áp dụng các rule định nghĩa trong local.rules, ghi log cảnh báo ra thư mục hiện tại với định dạng đầy đủ.
-![alt text](<../png/snort-task9 (2).png>)
+![alt text](<../png/Snort/snort-task9 (2).png>)
 
 B3: đọc file log `sudo snort -r snort.log.1747068618`
-![alt text](../png/snort-task9().png)
+![alt text](../png/Snort/snort-task9().png)
 
 > **Câu 2:** Clear the previous alert file and comment out the old rules. Create a rule to filter packets with Syn flag and run it against the given pcap file. What is the number of detected packets?
 
 B1: Thêm ruler vào local.rules
-![alt text](<../png/snort-task9 (4).png>)
+![alt text](<../png/Snort/snort-task9 (4).png>)
 B2 : Chạy lệnh `snort -c local.rules -A full -l . -r task9.pcap` 
 
 B3: B3: đọc file log 
-![alt text](../png/snort-task9(3).png)
+![alt text](../png/Snort/snort-task9(3).png)
 
 > **Câu 3:** Clear the previous alert file and comment out the old rules. Write a rule to filter packets with Push-Ack flags and run it against the given pcap file. What is the number of detected packets?
 
 Tương tự 
-![alt text](<../png/snort-task9 (5).png>)
+![alt text](<../png/Snort/snort-task9 (5).png>)
 
 > **Câu 4:** Clear the previous alert file and comment out the old rules. Create a rule to filter UDP packets with the same source and destination IP and run it against the given pcap file. What is the number of packets that show the same source and destination address?
 
-![alt text](<../png/snort-task9 (6).png>)
-![alt text](<../png/snort-task9 (7).png>)
+![alt text](<../png/Snort/snort-task9 (6).png>)
+![alt text](<../png/Snort/snort-task9 (7).png>)
 
 > **Câu 5:**Case Example - An analyst modified an existing rule successfully. Which rule option must the analyst change after the implementation?
 
