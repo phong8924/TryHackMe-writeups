@@ -5,7 +5,7 @@
 eXtensible Markup Language
 
 **Câu 3.2** What is the arrival date of the packet? (Answer format: Month/Day/Year)
-![alt text](.../png/wsbasic2-2.png)
+![alt text](png/wireSharkBasics/wsbasic2-2.png)
 05/13/2004
 
 **Câu 3.3** What is the TTL value?
