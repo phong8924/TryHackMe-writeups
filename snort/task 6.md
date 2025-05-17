@@ -19,7 +19,7 @@ Kiểm tra lưu lượng truy cập bằng tệp cấu hình mặc định  ở 
 `sudo ./traffic-generator.sh`
 
 Bây giờ, bạn sẽ có các bản ghi trong thư mục hiện tại. Điều hướng đến thư mục " `145.254.160.237` ". Cổng nguồn nào được sử dụng để kết nối với cổng 53?
-![alt text](<../png/snort-task6 (1).png>)
+![alt text](<../png/Snort/snort-task6 (1).png>)
 
 ![alt text](<../png/snort-task6 (2).png>)
 
