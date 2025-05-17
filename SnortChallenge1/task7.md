@@ -7,15 +7,15 @@ Use local-1.rules empty file to write a new rule to detect payloads containing t
 
 What is the number of detected packets?
 **Đổi sang hex**
-![alt text](../png/snc17.png)
+![alt text](../png/SnortChall/snc17.png)
 
 Investigate the log/alarm files.
 
 What is the requested path?
 
-![alt text](../png/snc18.png)
+![alt text](../png/SnortChall/snc18.png)
 
 
 What is the CVSS v2 score of the MS17-010 vulnerability?
 **Tìm trên gg**
-![alt text](../png/snc19.png)
+![alt text](../png/SnortChall/snc19.png)
