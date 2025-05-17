@@ -4,10 +4,13 @@
 What is the number of detected packets you got?
 
 B1: Thêm rule
-![alt text](../png/snortcTask2-1.png)
+![alt text](../png/SnortChall/snortcTask2-1.png)
+
 B2: quét và tạo log : sudo snort -c local.rules -A full -l . -r file
+
 B3: Đọc file log snort -r snort.log.121213131
-![alt text](../png/snc2.png)
+
+![alt text](../png/SnortChall/snc2.png)
 
 >**Đáp án** 164
 
