@@ -10,13 +10,13 @@ eXtensible Markup Language
 05/13/2004
 
 **Câu 3.3** What is the TTL value?
-![alt text](.../png/wsbasic2-3.png)
+![alt text](../png/wireSharkBasics/wsbasic2-3.png)
 47
 
 **Câu 3.4** What is the TCP payload size?
-![alt text](.../png/wsbasic2-4.png)
+![alt text](../png/wireSharkBasics/wsbasic2-4.png)
 424
 
 **Câu 3.5** What is the e-tag value?
-![alt text](.../png/wsbasic2-5.png)
+![alt text](../png/wireSharkBasics/wsbasic2-5.png)
 9a01a-4696-7e354b00
