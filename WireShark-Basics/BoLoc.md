@@ -86,3 +86,4 @@ Trình đơn này hiển thị:
 `dns.qry.type == 1`: Chỉ phản hồi cho truy vấn loại A (Address Record).
 51
 
+
